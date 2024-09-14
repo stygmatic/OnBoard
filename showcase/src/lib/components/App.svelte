@@ -1,20 +1,18 @@
 <script lang="ts">
 	import { Canvas } from '@threlte/core';
 	import Scene from './Scene.svelte';
-
 </script>
 
 <div>
 	<Canvas>
-	  <Scene />
+		<Scene />
 	</Canvas>
 </div>
-  
+
 <style>
 	div {
-		width: 100%;
-		height: 100%;
+		max-width: 100%;
+		min-height: 100%;
 		object-fit: contain;
 	}
 </style>
-
